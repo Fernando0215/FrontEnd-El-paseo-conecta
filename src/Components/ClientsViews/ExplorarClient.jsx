@@ -21,7 +21,7 @@ const ExplorarClient = () => {
         const fetchProductos = async () => {
             try {
                 const response = await axios.get(
-                    "http://localhost:3002/api/v1/productos"
+                    "https://red-lucky-cuttlefish.cyclic.app/api/v1/productos"
                 );
                 console.log(response);
                 setProductos(response.data.data);
