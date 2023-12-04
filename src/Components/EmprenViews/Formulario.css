@@ -1,0 +1,115 @@
+.CardForm{
+    background-color: cornflowerblue;
+    width: 600px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+  .listItem {
+    padding: 12px;
+    padding-left: 8px;
+    color: black;
+  }
+  
+  .listItem:hover, .listItem:focus {
+    background-color: #ffe7e5;
+  }
+  
+  .formContainer {
+    margin-left: 170px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .formTitle {
+    text-align: center;
+    font-size: 2xl;
+    padding-bottom: 6px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: wider;
+  }
+  
+  .form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 7;
+  }
+  
+  .formLabel {
+    font-weight: bold;
+    font-size: lg;
+    color: white;
+  }
+  
+  .formInput {
+    border: 1px solid gray-400;
+    margin-top: 2;
+    padding: 2.5px 4px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #202328;
+    color: white;
+  }
+  
+  .formTextArea {
+    border: 1px solid gray-400;
+    margin-top: 2;
+    padding: 2.5px 4px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #202328;
+    color: white;
+  }
+  
+  .formNumberInput {
+    border: 1px solid gray-400;
+    margin-top: 2;
+    padding: 2.5px 4px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #202328;
+    color: white;
+  }
+  
+  .formSubmitButton {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+    border-radius: 4px 0 0 4px;
+    background-color: red-600;
+    padding: 4px 8px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .formSubmitButton:hover {
+    background-color: red-700;
+  }
+  
+  .formBackButton {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2;
+    border-radius: 0 4px 4px 0;
+    padding: 4px 8px;
+    font-weight: bold;
+    color: white;
+    transition: border 0.3s;
+    border: 2px solid red-600;
+  }
+  
+  .formBackButton:hover {
+    border: 2px solid red-700;
+  }
+  
