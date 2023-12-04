@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3002/api/v1";
+const BASE_URL = "https://red-lucky-cuttlefish.cyclic.app/api/v1/";
 
 export const createProducto = async (formData) => {
     try {
