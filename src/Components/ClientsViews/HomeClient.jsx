@@ -23,7 +23,7 @@ export function HomeClient() {
       const fetchEmprendimientos = async () => {
         try {
           const response = await axios.get(
-            "http://localhost:3002/api/v1/emprendimientos"
+            "https://red-lucky-cuttlefish.cyclic.app/api/v1/emprendimientos"
           );
           console.log(response);
           setEmprendimientos(response.data.data);
